@@ -19,3 +19,10 @@ print(l)
 l.sort(reverse=True)
 print(l)
 
+n = [10, 73, 23, 26, 87, 92, 12]
+print(n)
+n.insert(2, 45)
+print(n)
+
+n.extend(l)
+print(n)
